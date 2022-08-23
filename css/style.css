@@ -18,6 +18,7 @@ img {
 }
 
 body {
+    color: #fff;
     background-color: #111;
     font-family: sans-serif;
 }
@@ -25,4 +26,68 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-title {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 15px;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.nav-wrapper {
+    background: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.page-text, .page-photo {
+    width: 45%;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.page-photo {
+    
+    background-image: url("../imgs/Oval.png"),
+    url("../imgs/Oval\ Copy.png");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right, right 110px;
+    background-size: 490px, 490px;
+}
+
+.form {
+    margin-left: 350px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 380px;
+    height: 487px;
+    background-color: #fff;
 }
