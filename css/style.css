@@ -62,7 +62,7 @@ body {
 }
 
 .page-text, .page-photo {
-    width: 45%;
+    width: 50%;
 }
 
 .main .container {
@@ -70,6 +70,7 @@ body {
     align-items: center;
     margin-top: 150px;
     margin-bottom: 80px;
+    justify-content: space-around;
 }
 
 .page-photo {
@@ -84,10 +85,56 @@ body {
 }
 
 .form {
-    margin-left: 350px;
+    margin-left: 325px;
     margin-top: 60px;
     border-radius: 10px;
     width: 380px;
     height: 487px;
     background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border: 1px solid #EAE9F2;
+    margin: 15px 0;
+    padding: 20px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form select {
+    border: 1px solid #EAE9F2;
+    padding: 20px 20px;
+    margin: 15px 0;
+    background: none;
+    outline: none;
+    border-radius: 5px;   
+}
+
+.form select:optional{
+    color: #696871;
+}
+
+.form .form-link {
+    background-color: #C31A12;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.page-text .page-title {
+    font-size: 45px;
+}
+
+.page-text .page-subtext {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    line-height: 33px;
 }
