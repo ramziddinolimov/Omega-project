@@ -286,3 +286,74 @@ body {
 .easy-photo img {
     margin-right: -70px;
 }
+
+.using .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.using-subtext, .using-photo {
+    width: 45%;
+    margin-bottom: 100px;
+}
+
+.using-subtext h2 {
+    font-size: 50px;
+}
+
+.using-subtext p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 35px;
+    margin: 50px 0;
+}
+
+.using-subtext a {
+    background-color: #F04037;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.asked-title {
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.asked-text {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.asked-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.asked-item {
+    width: 45%;
+    margin: 40px 0;
+}
+
+.asked-item p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.asked-wrapper {
+    text-align: center;
+    margin: 70px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.asked-wrapper a {
+    color: red;
+}
